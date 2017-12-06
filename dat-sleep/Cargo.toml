@@ -1,0 +1,14 @@
+[package]
+name = "sleep"
+version = "0.1.0"
+authors = ["Paul Woolcock <paul@woolcock.us>"]
+description = """
+An implementation of the SLEEP file format, as described in the DAT paper: https://datproject.org/paper
+"""
+homepage = "https://github.com/pwoolcoc/dat-rs"
+repository = "https://github.com/pwoolcoc/dat-rs"
+license = "MIT/Apache-2.0"
+documantation = "https://docs.rs/sleep"
+
+[dependencies]
+nom = "3"
