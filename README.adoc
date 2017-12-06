@@ -1,0 +1,3 @@
+= DAT library for rust
+
+This repo will be an implementation of the DAT protocol for https://rust-lang.org[rust]
