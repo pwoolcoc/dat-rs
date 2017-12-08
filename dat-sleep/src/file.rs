@@ -89,7 +89,6 @@ mod tests {
     #[test]
     fn test_get_entries() {
         let f = File::from_path("./dat-files/metadata.signatures").expect("Could not open file");
-        let entries = f.entry_iter().collect::<Vec<_>>();
-        println!("{:?}", entries);
+        assert_eq!(f.len(), 4);
     }
 }

@@ -12,7 +12,7 @@ pub enum Error {
 }
 
 /// type of SLEEP file
-#[derive(Debug, Clone, PartialEq)]
+#[derive(Debug, Copy, Clone, PartialEq)]
 pub enum FileType {
     Bitfield,
     Signatures,

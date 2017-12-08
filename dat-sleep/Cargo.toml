@@ -12,3 +12,4 @@ documentation = "https://docs.rs/sleep"
 
 [dependencies]
 nom = "3"
+ed25519-dalek = "0.5"
