@@ -1,3 +1,8 @@
 = DAT library for rust
 
 This repo will be an implementation of the DAT protocol for https://rust-lang.org[rust]
+
+== See Also
+
+* https://github.com/datrs[datrs]
+* https://github.com/bnewbold/geniza[bnewbold/geniza]
